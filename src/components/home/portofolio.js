@@ -61,11 +61,13 @@ function AppPortofolio() {
           dataSource={data}
           renderItem={item => (
             <List.Item>
-              <Card title={item.title}>
-                <image className="large">{item.content[0].logo}</image>
-                <p>{item.content[0].space}</p>
-                <p>{item.content[0].user}</p>
-              </Card>
+              <a href={item.content[0].user}>
+                <Card hoverable title={item.title}>
+                  <image className="large">{item.content[0].logo}</image>
+                  <p>{item.content[0].space}</p>
+                  <p>{item.content[0].user}</p>
+                </Card>
+                </a>
             </List.Item>
           )}
         />

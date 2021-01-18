@@ -27,7 +27,7 @@ function AppHeader() {
             <Link href="#home" title="Home" />
             <Link href="#about" title="About" />
             <Link href="#skills" title="Skill" />
-            <Link href="#experience" title="Experience" />
+            <Link href="#exp" title="Experience" />
             <Link href="#portofolio" title="Portofolio" />
             <Link href="#contact" title="Contact" />
           </Anchor>
@@ -46,7 +46,7 @@ function AppHeader() {
               <Link href="#home" title="Home" />
               <Link href="#about" title="About" />
               <Link href="#skills" title="Skills" />
-              <Link href="#experience" title="Experience" />
+              <Link href="#exp" title="Experience" />
               <Link href="#portofolio" title="Portofolio" />
               <Link href="#contact" title="Contact" />
             </Anchor>

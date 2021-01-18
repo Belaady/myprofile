@@ -88,7 +88,11 @@ header
 }
 
 .header .logo a {
-  color: #333;
+  color: #1890ff;
+  font-family:'Helvetica';
+  font-weight: bold;
+  font-size: 25px;
+  
 }
 
 .header .ant-anchor-wrapper {
