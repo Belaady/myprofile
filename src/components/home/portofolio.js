@@ -12,7 +12,7 @@ const data = [
       {
         logo: <img src={heroku} /> ,
         space: 'Personal website for web designing and programming lecture',
-        user: 'https://gitlab.com/Belaady/lab_1',
+        user: 'http://ppw-bela.herokuapp.com/',
 
       }
     ]

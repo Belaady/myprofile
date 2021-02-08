@@ -50,30 +50,33 @@ const { TextArea } = Input;
             >
               <Input placeholder="Full Name" />
             </Form.Item>
+
+
+            {/*<Form.Item*/}
+            {/*  name="email"*/}
+            {/*  rules={[*/}
+            {/*    {*/}
+            {/*      type: 'email',*/}
+            {/*      message: 'The input is not valid E-mail!',*/}
+            {/*    },*/}
+            {/*    {*/}
+            {/*      required: true,*/}
+            {/*      message: 'Please input your E-mail!',*/}
+            {/*    },*/}
+            {/*  ]}*/}
+            {/*>*/}
+            {/*  <Input placeholder="Email Address"/>*/}
+            {/*</Form.Item>*/}
+
             <Form.Item
-              name="email"
-              rules={[
-                {
-                  type: 'email',
-                  message: 'The input is not valid E-mail!',
-                },
-                {
-                  required: true,
-                  message: 'Please input your E-mail!',
-                },
-              ]}
+                name="subject"
             >
-              <Input placeholder="Email Address"/>
+              <Input placeholder="Subject" />
             </Form.Item>
             <Form.Item
               name="telephone"
             >
               <Input placeholder="Telephone" />
-            </Form.Item>
-            <Form.Item
-              name="subject"
-            >
-              <Input placeholder="Subject" />
             </Form.Item>
             <Form.Item
               name="message"
